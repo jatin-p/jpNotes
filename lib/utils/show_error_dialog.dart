@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 Future<void> showErrorDialog(
-    BuildContext context,
-    String text,
-    ) async {
+  BuildContext context,
+  String text,
+) async {
   return showDialog(
       context: context,
       builder: (context) {
