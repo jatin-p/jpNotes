@@ -5,20 +5,20 @@ import 'package:path/path.dart' show join;
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 
-
 class NotesService {
   Database? _db;
 
   List<DatabaseNote> _notes = [];
 
   static final NotesService _shared = NotesService._sharedInstance();
+
   NotesService._sharedInstance() {
-    _notesStreamController = StreamController<List<DatabaseNote>>.broadcast(
-      onListen: () {
-        _notesStreamController.sink.add(_notes);
-      }
-    );
+    _notesStreamController =
+        StreamController<List<DatabaseNote>>.broadcast(onListen: () {
+      _notesStreamController.sink.add(_notes);
+    });
   }
+
   factory NotesService() => _shared;
 
   late final StreamController<List<DatabaseNote>> _notesStreamController;
@@ -29,10 +29,10 @@ class NotesService {
     try {
       final user = await getUser(email: email);
       return user;
-    } on CouldNotFindUser  {
+    } on CouldNotFindUser {
       final createdUser = await createUser(email: email);
       return createdUser;
-    } catch(e){
+    } catch (e) {
       rethrow;
     }
   }
@@ -41,38 +41,37 @@ class NotesService {
     final allNotes = await getAllNotes();
     _notes = allNotes.toList();
     _notesStreamController.add(_notes);
-
   }
 
-  Future<DatabaseNote> updateNote({required DatabaseNote note, required String text}) async {
+  Future<DatabaseNote> updateNote({
+    required DatabaseNote note,
+    required String text,
+  }) async {
     await _ensureDbIsOpen();
     final db = _getDatabaseOrThrow();
 
     await getNote(id: note.id);
 
-     final updatesCount = await db.update(noteTable,{
+    final updatesCount = await db.update(noteTable, {
       textColumn: text,
       isSyncedWithCloudColumn: 0,
     });
 
-     if (updatesCount == 0){
-       throw CouldNotUpdateNote();
-     } else {
-       final updatedNote = await getNote(id: note.id);
-       _notes.removeWhere((note) => note.id == updatedNote.id);
-       _notes.add(updatedNote);
-       _notesStreamController.add(_notes);
-       return updatedNote;
-     }
-
+    if (updatesCount == 0) {
+      throw CouldNotUpdateNote();
+    } else {
+      final updatedNote = await getNote(id: note.id);
+      _notes.removeWhere((note) => note.id == updatedNote.id);
+      _notes.add(updatedNote);
+      _notesStreamController.add(_notes);
+      return updatedNote;
+    }
   }
 
   Future<Iterable<DatabaseNote>> getAllNotes() async {
     await _ensureDbIsOpen();
     final db = _getDatabaseOrThrow();
-    final notes = await db.query(
-      noteTable,
-    );
+    final notes = await db.query(noteTable);
 
     return notes.map((n) => DatabaseNote.fromRow(notes.first));
   }
@@ -86,7 +85,7 @@ class NotesService {
       where: 'id = ?',
       whereArgs: [id],
     );
-    if ( notes.isEmpty){
+    if (notes.isEmpty) {
       throw CouldNotFindNote();
     }
     final note = DatabaseNote.fromRow(notes.first);
