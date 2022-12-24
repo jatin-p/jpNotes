@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:mynotes/utilities/generic_dialog.dart';
 
 Future<bool> showDeleteDialog(
-    BuildContext context,
-    ) {
+  BuildContext context,
+) {
   return showGenericDialog(
     context: context,
     title: "Delete Note?",
