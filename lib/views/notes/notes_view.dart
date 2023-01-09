@@ -60,7 +60,6 @@ class _NotesViewState extends State<NotesView> {
                     context.read<AuthBloc>().add(
                           const AuthEventLogOut(),
                         );
-
                   }
               }
             },
