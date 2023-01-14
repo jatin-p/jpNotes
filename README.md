@@ -1,4 +1,4 @@
-# Note-Saving App
+# jpNotes - Note-Saving App
 
 A simple and user-friendly note-taking app that allows users to save and organize notes. The app utilizes Firebase Authentication for user login and registration, and Firebase Realtime Database to store and retrieve user notes.
 
