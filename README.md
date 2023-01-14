@@ -37,7 +37,7 @@ flutter run
 ## Author
 
 * Jatin Patel - [Github Profile](https://github.com/jatin-p)
-* Vandad Nahavandipoor [Code](https://github.com/vandadnp/mynotes-course) was used extensively (when things weren't working which is often since Flutter is relatively new and diffcult to develop for, espically if you use Windows)
+* Vandad Nahavandipoor's [Code](https://github.com/vandadnp/mynotes-course) was used extensively (when things weren't working which is often since Flutter is relatively new and diffcult to develop for, espically if you use Windows)
 
 ## License
 
