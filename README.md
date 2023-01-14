@@ -15,19 +15,19 @@ A simple and user-friendly note-taking app that allows users to save and organiz
 ## Getting Started
 
 1. Clone the repository
-'''
+```
 git clone https://github.com/jatin-p/mynotes.git
-'''
+```
 
 2. Install the dependencies
-'''
+```
 flutter pub get
-'''
+```
 
 3. Run the app
-'''
+```
 flutter run
-'''
+```
 
 # Built With
 - [Flutter](https://flutter.dev/) - Framework for building mobile apps
