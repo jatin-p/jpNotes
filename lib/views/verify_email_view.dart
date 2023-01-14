@@ -39,7 +39,7 @@ class _VerifyEmailViewState extends State<VerifyEmailView> {
                       const AuthEventLogOut(),
                     );
               },
-              child: const Text('Re-Register Here'),
+              child: const Text('<- Back to Login'),
             )
           ],
         ),
