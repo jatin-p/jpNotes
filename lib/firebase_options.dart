@@ -48,17 +48,17 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyAAO4N2lx8DuaBTLhTpMXijOrBInpcyusU',
-    appId: '1:789562608602:web:2ae56da1f0d41d2a218ee3',
+    appId: '1:789562608602:web:606d9964cb2ce656218ee3',
     messagingSenderId: '789562608602',
     projectId: 'flutter-freecodecamp-69df3',
     authDomain: 'flutter-freecodecamp-69df3.firebaseapp.com',
     storageBucket: 'flutter-freecodecamp-69df3.appspot.com',
-    measurementId: 'G-38ZSP6RTV1',
+    measurementId: 'G-02Y5WNRMH9',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyAYUgHyUE5OU3bT4ChhSFaWloLH05a5U7g',
-    appId: '1:789562608602:android:2ae76b362f3c1c65218ee3',
+    appId: '1:789562608602:android:60b29a47fe772c1b218ee3',
     messagingSenderId: '789562608602',
     projectId: 'flutter-freecodecamp-69df3',
     storageBucket: 'flutter-freecodecamp-69df3.appspot.com',
@@ -66,12 +66,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBVS4-Wy6Mn3bqyI-5VxbR7Tty-db35LbY',
-    appId: '1:789562608602:ios:6c163951c513d2c9218ee3',
+    appId: '1:789562608602:ios:f172e4c29078cf15218ee3',
     messagingSenderId: '789562608602',
     projectId: 'flutter-freecodecamp-69df3',
     storageBucket: 'flutter-freecodecamp-69df3.appspot.com',
-    iosClientId:
-        '789562608602-0v3fl36vr10ki6e9g2calumpo73e97fs.apps.googleusercontent.com',
-    iosBundleId: 'se.pixolity.mynotes',
+    iosClientId: '789562608602-four3gukvifvi669nqdgqf2epk5tpd6g.apps.googleusercontent.com',
+    iosBundleId: 'com.aijnt.jpnotes',
   );
 }

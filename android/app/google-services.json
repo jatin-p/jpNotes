@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:789562608602:android:b8b9c885e89fe94b218ee3",
+        "mobilesdk_app_id": "1:789562608602:android:60b29a47fe772c1b218ee3",
         "android_client_info": {
-          "package_name": "com.example.free_code_camp_course"
+          "package_name": "com.aijnt.jpnotes"
         }
       },
       "oauth_client": [
@@ -31,46 +31,10 @@
               "client_type": 3
             },
             {
-              "client_id": "789562608602-eru0l3ggacns87fe9sns3qm79vtvarhf.apps.googleusercontent.com",
+              "client_id": "789562608602-0v3fl36vr10ki6e9g2calumpo73e97fs.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.freeCodeCampCourse"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:789562608602:android:2ae76b362f3c1c65218ee3",
-        "android_client_info": {
-          "package_name": "se.pixolity.mynotes"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "789562608602-j82f86n03sg5ifbg1oj159mvs5jntonr.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAYUgHyUE5OU3bT4ChhSFaWloLH05a5U7g"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "789562608602-j82f86n03sg5ifbg1oj159mvs5jntonr.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "789562608602-eru0l3ggacns87fe9sns3qm79vtvarhf.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.freeCodeCampCourse"
+                "bundle_id": "se.pixolity.mynotes"
               }
             }
           ]
