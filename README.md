@@ -4,7 +4,8 @@ A simple and user-friendly note-taking app that allows users to save and organiz
 
 
 ![Main Note View](https://raw.github.com/jatin-p/jpNotes/master/screenshots/phone/main_note_view.png)
-
+![New Note View](https://raw.github.com/jatin-p/jpNotes/master/screenshots/phone/new_note.png)
+![Login View](https://raw.github.com/jatin-p/jpNotes/master/screenshots/phone/login.png)
 
 ## Features
 - Create and save notes
