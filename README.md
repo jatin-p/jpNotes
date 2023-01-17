@@ -2,6 +2,10 @@
 
 A simple and user-friendly note-taking app that allows users to save and organize notes. The app utilizes Firebase Authentication for user login and registration, and Firebase Realtime Database to store and retrieve user notes.
 
+
+![Main Note View](https://raw.github.com/jatin-p/jpNotes/master/screenshots/phone/main note view.png)
+
+
 ## Features
 - Create and save notes
 - Categorize and organize notes by tags
