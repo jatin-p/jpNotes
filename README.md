@@ -3,7 +3,7 @@
 A simple and user-friendly note-taking app that allows users to save and organize notes. The app utilizes Firebase Authentication for user login and registration, and Firebase Realtime Database to store and retrieve user notes.
 
 
-![Main Note View](/screenshots/phone/main note view.png?raw=true)
+![Main Note View](/screenshots/phone/main note view.png)
 
 
 ## Features
