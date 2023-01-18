@@ -1,6 +1,6 @@
-# jpNotes - Note-Saving App
+# [jpNotes](https://flutter-freecodecamp-69df3.web.app) - Note-Saving App
 
-A simple and user-friendly note-taking app that allows users to save and organize notes. The app utilizes Firebase Authentication for user login and registration, and Firebase Realtime Database to store and retrieve user notes.
+A simple and user-friendly note-taking app that allows users to save and organize notes. The app utilizes Firebase Authentication for user login and registration, and Firebase Realtime Database to store and retrieve user notes. 
 
 
 ![Main Note View](https://raw.github.com/jatin-p/jpNotes/master/screenshots/phone/main_note_view.png)
