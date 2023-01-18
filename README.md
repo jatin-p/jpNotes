@@ -21,7 +21,7 @@ A simple and user-friendly note-taking app that allows users to save and organiz
 
 1. Clone the repository
 ```
-git clone https://github.com/jatin-p/mynotes.git
+git clone https://github.com/jatin-p/jpNotes.git
 ```
 
 2. Install the dependencies
