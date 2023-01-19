@@ -1,4 +1,4 @@
-# [jpNotes](https://flutter-freecodecamp-69df3.web.app) - Cloud Notes App
+# jpNotes - Cloud Notes App - [Demo Link](https://flutter-freecodecamp-69df3.web.app)
 
 A simple and user-friendly note-taking app that allows users to save and organize notes. The app utilizes Firebase Authentication for user login and registration, and Firebase Realtime Database to store and retrieve user notes. 
 
