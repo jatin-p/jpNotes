@@ -70,7 +70,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '789562608602',
     projectId: 'flutter-freecodecamp-69df3',
     storageBucket: 'flutter-freecodecamp-69df3.appspot.com',
-    iosClientId: '789562608602-four3gukvifvi669nqdgqf2epk5tpd6g.apps.googleusercontent.com',
+    iosClientId:
+        '789562608602-four3gukvifvi669nqdgqf2epk5tpd6g.apps.googleusercontent.com',
     iosBundleId: 'com.aijnt.jpnotes',
   );
 }

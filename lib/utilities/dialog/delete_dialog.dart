@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mynotes/extensions/buildcontext/loc.dart';
 import 'package:mynotes/utilities/dialog/generic_dialog.dart';
 
 Future<bool> showDeleteDialog(
@@ -6,11 +7,11 @@ Future<bool> showDeleteDialog(
 ) {
   return showGenericDialog(
     context: context,
-    title: "Delete Note?",
-    content: "Are you sure you want to delete this note?",
+    title: context.loc.delete,
+    content: context.loc.delete_note_prompt,
     optionBuilder: () => {
-      'Yes': true,
-      'Cancel': false,
+      context.loc.yes: true,
+      context.loc.cancel: false,
     },
   ).then((value) => value ?? false);
 }
